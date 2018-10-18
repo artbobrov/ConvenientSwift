@@ -5,17 +5,13 @@
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat" alt="Swift 4 compatible" /></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible" /></a>
-<a href="https://cocoapods.org/pods/XLActionController"><img src="https://img.shields.io/cocoapods/v/ConvenientSwift.svg" alt="CocoaPods compatible" /></a>
+<a href="https://cocoapods.org/pods/ConvenientSwift"><img src="https://img.shields.io/cocoapods/v/ConvenientSwift.svg" alt="CocoaPods compatible" /></a>
 <a href="https://raw.githubusercontent.com/artbobrov/ConvenientSwift/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-By [Artem Bobrov](http://artbobrov.com).
-
 ## Introduction
 
-ConvenientSwift is a library to .......
-
-<!-- <img src="Example/ConvenientSwift.gif" width="300"/> -->
+ConvenientSwift is a library containing some convenient extensions for UIKit, Foundation, CoreGraphics and Swift Standart Library. Also there are some usefull stuff for developing. Some extensions were borrowed from [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift.git).
 
 ## Usage
 
@@ -33,11 +29,6 @@ import ConvenientSwift
 
 * If you **want to contribute** please feel free to **submit pull requests**.
 * If you **have a feature request** please **open an issue**.
-* If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) and threads on [StackOverflow](http://stackoverflow.com/questions/tagged/ConvenientSwift) (Tag 'ConvenientSwift') before submitting an issue**.
-
-Before contribute check the [CONTRIBUTING](https://github.com/artbobrov/ConvenientSwift/blob/master/CONTRIBUTING.md) file for more info.
-
-If you use **ConvenientSwift** in your app We would love to hear about it! Drop us a line on [Twitter](https://twitter.com/artbobrov).
 
 ## Examples
 
@@ -67,16 +58,14 @@ To install ConvenientSwift, simply add the following line to your Cartfile:
 github "artbobrov/ConvenientSwift" ~> 1.0
 ```
 
+### Documentation
+
+To create a documentation reference just use [jazzy](https://github.com/realm/jazzy.git). It creates a docs site in the `ConvenientSwift/docs` path. Open `index.html` and explore.
+
+```bash
+$ jazzy
+```
+
 ## Author
 
-* [Artem Bobrov](https://github.com/artbobrov) ([@artbobrov](https://twitter.com/artbobrov))
-
-## FAQ
-
-### How to .....
-
-You can do it by conforming to .....
-
-# Changelog
-
-See [CHANGELOG](CHANGELOG.md).
+* [artbobrov](https://github.com/artbobrov)
