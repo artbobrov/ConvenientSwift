@@ -2,7 +2,7 @@
 //  ConvenientSwift.h
 //  ConvenientSwift
 //
-//  Copyright © 2016 Artem Bobrov. All rights reserved.
+//  Copyright © 2018 Artem Bobrov. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
