@@ -9,11 +9,9 @@
 import XCTest
 
 class ArrayTests: XCTestCase {
-    func testArray() {
+    func testDivided() {
         let array = [1, 2, 3, 4, 5]
-        XCTAssertEqual(array.resized(10, fillWith: 0), [1, 2, 3, 4, 5, 0, 0, 0, 0, 0])
-
-        let (odd, even) = array.binarySplit { $0 % 2 != 0 }
+        let (odd, even) = array.divided { $0 % 2 != 0 }
         XCTAssertTrue(odd.allSatisfy { $0 % 2 != 0 })
         XCTAssertTrue(even.allSatisfy { $0 % 2 == 0 })
     }
