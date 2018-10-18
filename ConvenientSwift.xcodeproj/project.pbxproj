@@ -48,6 +48,16 @@
 		A141BECD2178090E00A016E1 /* NSPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC62178090E00A016E1 /* NSPredicate.swift */; };
 		A141BECE2178090E00A016E1 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC72178090E00A016E1 /* URL.swift */; };
 		A141BECF2178090E00A016E1 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC82178090E00A016E1 /* UserDefaults.swift */; };
+		A141BEDB2178092600A016E1 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED12178092600A016E1 /* Array.swift */; };
+		A141BEDC2178092600A016E1 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED22178092600A016E1 /* Collection.swift */; };
+		A141BEDD2178092600A016E1 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED32178092600A016E1 /* Comparable.swift */; };
+		A141BEDE2178092600A016E1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED42178092600A016E1 /* Character.swift */; };
+		A141BEDF2178092600A016E1 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED52178092600A016E1 /* Sequence.swift */; };
+		A141BEE02178092600A016E1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED62178092600A016E1 /* Dictionary.swift */; };
+		A141BEE12178092600A016E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED72178092600A016E1 /* String.swift */; };
+		A141BEE22178092600A016E1 /* SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED82178092600A016E1 /* SignedInteger.swift */; };
+		A141BEE32178092600A016E1 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BED92178092600A016E1 /* Bool.swift */; };
+		A141BEE42178092600A016E1 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEDA2178092600A016E1 /* Optional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +116,16 @@
 		A141BEC62178090E00A016E1 /* NSPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicate.swift; sourceTree = "<group>"; };
 		A141BEC72178090E00A016E1 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		A141BEC82178090E00A016E1 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		A141BED12178092600A016E1 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		A141BED22178092600A016E1 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		A141BED32178092600A016E1 /* Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		A141BED42178092600A016E1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A141BED52178092600A016E1 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		A141BED62178092600A016E1 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		A141BED72178092600A016E1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A141BED82178092600A016E1 /* SignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedInteger.swift; sourceTree = "<group>"; };
+		A141BED92178092600A016E1 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		A141BEDA2178092600A016E1 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +202,7 @@
 				A141BE87217808CB00A016E1 /* CoreGraphics */,
 				A141BE90217808E700A016E1 /* UIKit */,
 				A141BEC12178090E00A016E1 /* Foundation */,
+				A141BED02178092600A016E1 /* SwiftStdLib */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +261,23 @@
 				A141BEC82178090E00A016E1 /* UserDefaults.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		A141BED02178092600A016E1 /* SwiftStdLib */ = {
+			isa = PBXGroup;
+			children = (
+				A141BED12178092600A016E1 /* Array.swift */,
+				A141BED22178092600A016E1 /* Collection.swift */,
+				A141BED32178092600A016E1 /* Comparable.swift */,
+				A141BED42178092600A016E1 /* Character.swift */,
+				A141BED52178092600A016E1 /* Sequence.swift */,
+				A141BED62178092600A016E1 /* Dictionary.swift */,
+				A141BED72178092600A016E1 /* String.swift */,
+				A141BED82178092600A016E1 /* SignedInteger.swift */,
+				A141BED92178092600A016E1 /* Bool.swift */,
+				A141BEDA2178092600A016E1 /* Optional.swift */,
+			);
+			path = SwiftStdLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,10 +398,14 @@
 				A141BEBE217808E800A016E1 /* UINavigationController.swift in Sources */,
 				A141BECC2178090E00A016E1 /* NSAttributedString.swift in Sources */,
 				A141BEAF217808E700A016E1 /* UICollectionView.swift in Sources */,
+				A141BEDE2178092600A016E1 /* Character.swift in Sources */,
+				A141BEDB2178092600A016E1 /* Array.swift in Sources */,
 				A141BE8C217808CB00A016E1 /* CGSize.swift in Sources */,
+				A141BEE12178092600A016E1 /* String.swift in Sources */,
 				A141BEAE217808E700A016E1 /* UISearchBar.swift in Sources */,
 				A141BE85217808A200A016E1 /* Create.swift in Sources */,
 				A141BEAB217808E700A016E1 /* UIGestureRecognizer.swift in Sources */,
+				A141BEE22178092600A016E1 /* SignedInteger.swift in Sources */,
 				A141BE84217808A200A016E1 /* Then.swift in Sources */,
 				A141BECB2178090E00A016E1 /* Data.swift in Sources */,
 				A141BE8F217808CB00A016E1 /* CGColor.swift in Sources */,
@@ -373,22 +415,28 @@
 				A141BEB7217808E700A016E1 /* UIWindow.swift in Sources */,
 				A141BECA2178090E00A016E1 /* URLRequest.swift in Sources */,
 				A141BEB9217808E700A016E1 /* UIImageView.swift in Sources */,
+				A141BEDF2178092600A016E1 /* Sequence.swift in Sources */,
+				A141BEE32178092600A016E1 /* Bool.swift in Sources */,
 				A141BEAA217808E700A016E1 /* UIView.swift in Sources */,
 				A141BEC0217808E800A016E1 /* UIStoryboard.swift in Sources */,
 				A141BEBB217808E700A016E1 /* UISegmentedControl.swift in Sources */,
 				A141BEBC217808E800A016E1 /* UIAlertController.swift in Sources */,
 				A141BECE2178090E00A016E1 /* URL.swift in Sources */,
 				A141BECD2178090E00A016E1 /* NSPredicate.swift in Sources */,
+				A141BEDD2178092600A016E1 /* Comparable.swift in Sources */,
 				A141BEBA217808E700A016E1 /* UIFont.swift in Sources */,
 				A141BE83217808A200A016E1 /* Never.swift in Sources */,
+				A141BEDC2178092600A016E1 /* Collection.swift in Sources */,
 				A141BEB4217808E700A016E1 /* UIImage.swift in Sources */,
 				A141BEB6217808E700A016E1 /* UINavigationBar.swift in Sources */,
+				A141BEE02178092600A016E1 /* Dictionary.swift in Sources */,
 				A141BECF2178090E00A016E1 /* UserDefaults.swift in Sources */,
 				A141BEAC217808E700A016E1 /* UIStackView.swift in Sources */,
 				A141BEBF217808E800A016E1 /* UIEdgeInsets.swift in Sources */,
 				A141BEB3217808E700A016E1 /* UIButton.swift in Sources */,
 				A141BEBD217808E800A016E1 /* UISlider.swift in Sources */,
 				A141BEB8217808E700A016E1 /* UISwitch.swift in Sources */,
+				A141BEE42178092600A016E1 /* Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
