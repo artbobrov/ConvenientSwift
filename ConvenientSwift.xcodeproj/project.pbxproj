@@ -41,6 +41,13 @@
 		A141BEBE217808E800A016E1 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEA6217808E700A016E1 /* UINavigationController.swift */; };
 		A141BEBF217808E800A016E1 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEA7217808E700A016E1 /* UIEdgeInsets.swift */; };
 		A141BEC0217808E800A016E1 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEA8217808E700A016E1 /* UIStoryboard.swift */; };
+		A141BEC92178090E00A016E1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC22178090E00A016E1 /* Date.swift */; };
+		A141BECA2178090E00A016E1 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC32178090E00A016E1 /* URLRequest.swift */; };
+		A141BECB2178090E00A016E1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC42178090E00A016E1 /* Data.swift */; };
+		A141BECC2178090E00A016E1 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC52178090E00A016E1 /* NSAttributedString.swift */; };
+		A141BECD2178090E00A016E1 /* NSPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC62178090E00A016E1 /* NSPredicate.swift */; };
+		A141BECE2178090E00A016E1 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC72178090E00A016E1 /* URL.swift */; };
+		A141BECF2178090E00A016E1 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BEC82178090E00A016E1 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +99,13 @@
 		A141BEA6217808E700A016E1 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		A141BEA7217808E700A016E1 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
 		A141BEA8217808E700A016E1 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		A141BEC22178090E00A016E1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A141BEC32178090E00A016E1 /* URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		A141BEC42178090E00A016E1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A141BEC52178090E00A016E1 /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		A141BEC62178090E00A016E1 /* NSPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicate.swift; sourceTree = "<group>"; };
+		A141BEC72178090E00A016E1 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		A141BEC82178090E00A016E1 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +181,7 @@
 			children = (
 				A141BE87217808CB00A016E1 /* CoreGraphics */,
 				A141BE90217808E700A016E1 /* UIKit */,
+				A141BEC12178090E00A016E1 /* Foundation */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,6 +226,20 @@
 				A141BEA8217808E700A016E1 /* UIStoryboard.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A141BEC12178090E00A016E1 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A141BEC22178090E00A016E1 /* Date.swift */,
+				A141BEC32178090E00A016E1 /* URLRequest.swift */,
+				A141BEC42178090E00A016E1 /* Data.swift */,
+				A141BEC52178090E00A016E1 /* NSAttributedString.swift */,
+				A141BEC62178090E00A016E1 /* NSPredicate.swift */,
+				A141BEC72178090E00A016E1 /* URL.swift */,
+				A141BEC82178090E00A016E1 /* UserDefaults.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,29 +354,36 @@
 				A141BEB2217808E700A016E1 /* UIDatePicker.swift in Sources */,
 				A141BE8E217808CB00A016E1 /* CGFloat.swift in Sources */,
 				A141BEAD217808E700A016E1 /* UIColor.swift in Sources */,
+				A141BEC92178090E00A016E1 /* Date.swift in Sources */,
 				A141BEB0217808E700A016E1 /* UITableView.swift in Sources */,
 				A141BEB1217808E700A016E1 /* UITextField.swift in Sources */,
 				A141BEBE217808E800A016E1 /* UINavigationController.swift in Sources */,
+				A141BECC2178090E00A016E1 /* NSAttributedString.swift in Sources */,
 				A141BEAF217808E700A016E1 /* UICollectionView.swift in Sources */,
 				A141BE8C217808CB00A016E1 /* CGSize.swift in Sources */,
 				A141BEAE217808E700A016E1 /* UISearchBar.swift in Sources */,
 				A141BE85217808A200A016E1 /* Create.swift in Sources */,
 				A141BEAB217808E700A016E1 /* UIGestureRecognizer.swift in Sources */,
 				A141BE84217808A200A016E1 /* Then.swift in Sources */,
+				A141BECB2178090E00A016E1 /* Data.swift in Sources */,
 				A141BE8F217808CB00A016E1 /* CGColor.swift in Sources */,
 				A141BEA9217808E700A016E1 /* UIScrollView.swift in Sources */,
 				A141BE8D217808CB00A016E1 /* CGPoint.swift in Sources */,
 				A141BEB5217808E700A016E1 /* UIViewController.swift in Sources */,
 				A141BEB7217808E700A016E1 /* UIWindow.swift in Sources */,
+				A141BECA2178090E00A016E1 /* URLRequest.swift in Sources */,
 				A141BEB9217808E700A016E1 /* UIImageView.swift in Sources */,
 				A141BEAA217808E700A016E1 /* UIView.swift in Sources */,
 				A141BEC0217808E800A016E1 /* UIStoryboard.swift in Sources */,
 				A141BEBB217808E700A016E1 /* UISegmentedControl.swift in Sources */,
 				A141BEBC217808E800A016E1 /* UIAlertController.swift in Sources */,
+				A141BECE2178090E00A016E1 /* URL.swift in Sources */,
+				A141BECD2178090E00A016E1 /* NSPredicate.swift in Sources */,
 				A141BEBA217808E700A016E1 /* UIFont.swift in Sources */,
 				A141BE83217808A200A016E1 /* Never.swift in Sources */,
 				A141BEB4217808E700A016E1 /* UIImage.swift in Sources */,
 				A141BEB6217808E700A016E1 /* UINavigationBar.swift in Sources */,
+				A141BECF2178090E00A016E1 /* UserDefaults.swift in Sources */,
 				A141BEAC217808E700A016E1 /* UIStackView.swift in Sources */,
 				A141BEBF217808E800A016E1 /* UIEdgeInsets.swift in Sources */,
 				A141BEB3217808E700A016E1 /* UIButton.swift in Sources */,
