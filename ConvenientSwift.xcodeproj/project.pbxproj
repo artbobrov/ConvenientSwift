@@ -10,6 +10,9 @@
 		287D0A6E1C4B73BD004566D6 /* ConvenientSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* ConvenientSwiftTests.swift */; };
 		28F828811C494B2C00330CF4 /* ConvenientSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* ConvenientSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* ConvenientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* ConvenientSwift.framework */; };
+		A141BE83217808A200A016E1 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE80217808A200A016E1 /* Never.swift */; };
+		A141BE84217808A200A016E1 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE81217808A200A016E1 /* Then.swift */; };
+		A141BE85217808A200A016E1 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE82217808A200A016E1 /* Create.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,9 @@
 		28F828871C494B2C00330CF4 /* ConvenientSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvenientSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Example/Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A141BE80217808A200A016E1 /* Never.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Never.swift; sourceTree = "<group>"; };
+		A141BE81217808A200A016E1 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		A141BE82217808A200A016E1 /* Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +88,21 @@
 		28F828971C494B4200330CF4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A141BE7F217808A200A016E1 /* Extra */,
 				28F828801C494B2C00330CF4 /* ConvenientSwift.h */,
 				28F828821C494B2C00330CF4 /* Info.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		A141BE7F217808A200A016E1 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				A141BE80217808A200A016E1 /* Never.swift */,
+				A141BE81217808A200A016E1 /* Then.swift */,
+				A141BE82217808A200A016E1 /* Create.swift */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A141BE85217808A200A016E1 /* Create.swift in Sources */,
+				A141BE84217808A200A016E1 /* Then.swift in Sources */,
+				A141BE83217808A200A016E1 /* Never.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +390,7 @@
 		28F828951C494B2C00330CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -383,6 +404,7 @@
 		28F828961C494B2C00330CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
