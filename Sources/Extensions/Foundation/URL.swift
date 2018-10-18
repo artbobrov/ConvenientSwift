@@ -1,6 +1,6 @@
 //
 //  URL.swift
-//  BetterSwift
+//  ConvenientSwift
 //
 //  Created by abobrov on 14/09/2018.
 //  Copyright © 2018 Artem Bobrov. All rights reserved.

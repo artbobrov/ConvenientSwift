@@ -1,6 +1,6 @@
 //
 //  UIStoryboard.swift
-//  BetterSwift
+//  ConvenientSwift
 //
 //  Created by Artem Bobrov on 07/10/2018.
 //

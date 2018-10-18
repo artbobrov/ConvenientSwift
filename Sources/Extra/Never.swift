@@ -1,6 +1,6 @@
 //
 //  Never.swift
-//  BetterSwift
+//  ConvenientSwift
 //
 //  Created by Artem Bobrov on 14.09.2018.
 //  Copyright © 2018 Artem Bobrov. All rights reserved.

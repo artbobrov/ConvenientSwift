@@ -60,7 +60,7 @@ github "artbobrov/ConvenientSwift" ~> 1.0
 
 ### Documentation
 
-To create a documentation reference just use [jazzy](https://github.com/realm/jazzy.git). It creates a docs site in the `ConvenientSwift/docs` path. Open `index.html` and explore.
+To create a documentation reference just use [jazzy](https://github.com/realm/jazzy.git). It creates a docs site in the `ConvenientSwift/docs` path. Open `index.html` and enjoy.
 
 ```bash
 $ jazzy

@@ -1,6 +1,6 @@
 //
 //  UIViewController.swift
-//  BetterSwift
+//  ConvenientSwift
 //
 //  Created by abobrov on 17/09/2018.
 //  Copyright © 2018 Artem Bobrov. All rights reserved.

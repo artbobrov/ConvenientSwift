@@ -1,6 +1,6 @@
 //
 //  URLRequest.swift
-//  BetterSwift
+//  ConvenientSwift
 //
 //  Created by Artem Bobrov on 08/10/2018.
 //
