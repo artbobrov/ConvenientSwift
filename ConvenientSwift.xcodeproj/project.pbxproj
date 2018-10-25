@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28F828811C494B2C00330CF4 /* ConvenientSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* ConvenientSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* ConvenientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* ConvenientSwift.framework */; };
+		A106B43D217D4AA600FF725F /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106B43C217D4AA600FF725F /* Weak.swift */; };
 		A141BE83217808A200A016E1 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE80217808A200A016E1 /* Never.swift */; };
 		A141BE84217808A200A016E1 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE81217808A200A016E1 /* Then.swift */; };
 		A141BE85217808A200A016E1 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BE82217808A200A016E1 /* Create.swift */; };
@@ -87,6 +88,7 @@
 		28F828871C494B2C00330CF4 /* ConvenientSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvenientSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Example/Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A106B43C217D4AA600FF725F /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 		A141BE80217808A200A016E1 /* Never.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Never.swift; sourceTree = "<group>"; };
 		A141BE81217808A200A016E1 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		A141BE82217808A200A016E1 /* Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				A141BE80217808A200A016E1 /* Never.swift */,
 				A141BE81217808A200A016E1 /* Then.swift */,
 				A141BE82217808A200A016E1 /* Create.swift */,
+				A106B43C217D4AA600FF725F /* Weak.swift */,
 			);
 			path = Extra;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				A141BE84217808A200A016E1 /* Then.swift in Sources */,
 				A141BECB2178090E00A016E1 /* Data.swift in Sources */,
 				A141BE8F217808CB00A016E1 /* CGColor.swift in Sources */,
+				A106B43D217D4AA600FF725F /* Weak.swift in Sources */,
 				A141BEA9217808E700A016E1 /* UIScrollView.swift in Sources */,
 				A141BE8D217808CB00A016E1 /* CGPoint.swift in Sources */,
 				A141BEB5217808E700A016E1 /* UIViewController.swift in Sources */,

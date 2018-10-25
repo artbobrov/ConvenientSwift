@@ -72,9 +72,9 @@ public extension Array {
         return try reduce(into: ([], []), { result, element in
             if try predicate(element) {
                 result.0.append(element)
-			} else {
-				result.1.append(element)
-			}
+            } else {
+                result.1.append(element)
+            }
         })
     }
 
