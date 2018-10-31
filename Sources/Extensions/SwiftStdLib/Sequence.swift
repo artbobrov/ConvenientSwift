@@ -136,6 +136,16 @@ public extension Sequence {
             dictionary[pair.key] = pair.value
         })
     }
+
+	/// Returns an array containing the results of mapping the given keyPath value over the sequence’s elements.
+	///
+	///		let names = persons.map(at: \.name)
+	///
+	/// - Parameter keyPath: Given keyPath.
+	/// - Returns: An array containing the transformed elements of this sequence.
+	public func map<Value>(at keyPath: KeyPath<Element, Value>) -> [Value] {
+		return map { $0[keyPath: keyPath] }
+	}
 }
 
 public extension Sequence where Element: Equatable {
