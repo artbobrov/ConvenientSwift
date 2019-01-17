@@ -69,6 +69,7 @@
 		A141BF142178099900A016E1 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BF082178099900A016E1 /* DictionaryTests.swift */; };
 		A141BF152178099900A016E1 /* CGSizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BF0A2178099900A016E1 /* CGSizeTests.swift */; };
 		A141BF162178099900A016E1 /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141BF0B2178099900A016E1 /* CGPointTests.swift */; };
+		A1BC185821F1046B00621C54 /* Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC185721F1046B00621C54 /* Change.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,7 @@
 		A141BF082178099900A016E1 /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		A141BF0A2178099900A016E1 /* CGSizeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeTests.swift; sourceTree = "<group>"; };
 		A141BF0B2178099900A016E1 /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
+		A1BC185721F1046B00621C54 /* Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				A141BE81217808A200A016E1 /* Then.swift */,
 				A141BE82217808A200A016E1 /* Create.swift */,
 				A106B43C217D4AA600FF725F /* Weak.swift */,
+				A1BC185721F1046B00621C54 /* Change.swift */,
 			);
 			path = Extra;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				A141BEAF217808E700A016E1 /* UICollectionView.swift in Sources */,
 				A141BEDE2178092600A016E1 /* Character.swift in Sources */,
 				A141BEDB2178092600A016E1 /* Array.swift in Sources */,
+				A1BC185821F1046B00621C54 /* Change.swift in Sources */,
 				A141BE8C217808CB00A016E1 /* CGSize.swift in Sources */,
 				A141BEE12178092600A016E1 /* String.swift in Sources */,
 				A141BEAE217808E700A016E1 /* UISearchBar.swift in Sources */,

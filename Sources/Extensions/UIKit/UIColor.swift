@@ -34,7 +34,7 @@ public extension UIColor {
     ///
     /// - Parameters:
     ///   - hex: Hex Int (example: 0xFFAEC0).
-    ///   - alpha: Alpha channel value (default is 1). (min: 0, max: 1)
+    ///   - alpha: Alpha channel value (default is 255). (min: 0, max: 255)
     public convenience init(hex: Int, alpha: CGFloat = 1) {
         let red = (hex >> 16) & 0xFF
         let green = (hex >> 8) & 0xFF
